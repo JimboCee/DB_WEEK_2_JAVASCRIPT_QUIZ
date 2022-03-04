@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz Page</title>
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Enter Your Name below to save your score!</h2>
+                <h5 id="end-text">500: Superstar, well done! <br> 300/400: Keep it up, almost there!<br> 100/200: Must try harder!</h5>
+                <input type="text" name="name" id="username" placeholder="Enter Your Name">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" enabled></button>
+            </form>
+            <a href="game.html" class="btn">Play Again?</a>
+            <a href="index.html" class="btn">Home</a>
+        </div>
+    </div>
+</body>
+</html>
